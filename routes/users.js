@@ -8,5 +8,5 @@ router.get('/home',(req,res)=>{
     res.render('home');
 });
 
-
+12
 module.exports = router;
