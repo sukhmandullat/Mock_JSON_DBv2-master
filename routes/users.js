@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
+const {createUser} = require('../controllers/usersController.js');
 
-
-
-//router handler for our home page
-router.get('/home',(req,res)=>{
+//Router handler for our home page
+router.get('/home',  (req, res)=>{
     res.render('home');
 });
 
-12
+
+
 module.exports = router;
